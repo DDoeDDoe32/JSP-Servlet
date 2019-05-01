@@ -1,3 +1,4 @@
-JDK ��ġ
-- JSP �� Servlet�� JAVA�� �⺻���� ���˴ϴ�.
-- JAVA ���� �ۼ��� ���α׷��� �������ϱ� ���ؼ��� JDK(Java Development Kit)�� �ʿ��մϴ�.
+﻿JDK 설치
+- JSP 및 Servlet은 JAVA를 기본언어로 사용됩니다.
+- JAVA 언어로 작성한 프로그램을 컴파일하기 위해서는 JDK(Java Development Kit)가 필요합니다.
+
