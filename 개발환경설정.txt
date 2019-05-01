@@ -22,3 +22,16 @@ bin/javac.exe : .java 파일을 JVM이 받아들일 수 있는 .class 파일로 
 
 IDE(개발툴) 이클립스 설치(다운로드)
  1. http://www.eclipse.org 접속
+ 2. JAVA EE 버전 다운로드
+
+톰캣 설치
+ - 웹컨테이너 톰캣 설치 - http://tomcat.apache.org에서 무료 다운로드 후 설치합니다.
+
+ 1. http://tomcat.apache.org 접속
+ 2. zip파일 다운로드
+ 3. 압축 해제
+ 4. 이클립스 연동 : server탭 열기(Show View -> Other... server)
+ 5. server 생성
+ 6. server 설정(더블클릭) -> 1. Use Tomcat installation
+                                      2. Publish module contexts to separate XML files
+                                      3. HTTP/1.1 8181 (Oracle http 프로토콜 8080과 충돌 발생)
