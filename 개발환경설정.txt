@@ -2,3 +2,23 @@
 - JSP 및 Servlet은 JAVA를 기본언어로 사용됩니다.
 - JAVA 언어로 작성한 프로그램을 컴파일하기 위해서는 JDK(Java Development Kit)가 필요합니다.
 
+JDK 설치
+ 1. http://java.sun.com 접속
+ 2. Downloads 진입
+ 3. JDK 최신버전 다운로드(SE)
+
+PATH 설정
+- 환경변수 PATH에 java.exe를 포함시켜 어느 디렉토리에서나 javac.exe가 실행될 수 있도록 설정합니다.
+- JAVA 환경 변수 설정(시스템 속성-> 고급 -> 환경 변수)
+
+bin/javac.exe : .java 파일을 JVM이 받아들일 수 있는 .class 파일로 변환 시켜주는 프로그램
+                   매번 해당 경로에 들어가서 실행하기가 번거로우므로, 환경변수 설정을 통해 어디서나 실행 가능하게 함.
+
+변수 이름(N) : JAVA_HOME
+변수 값(V) : C:\Program Files\Java\jdk-버전
+
+변수 이름(N) : Path
+변수 값(V) :C:\Program Files\Java\jdk-버전\bin
+
+IDE(개발툴) 이클립스 설치(다운로드)
+ 1. http://www.eclipse.org 접속
