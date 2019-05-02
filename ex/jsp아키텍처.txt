@@ -1,3 +1,3 @@
 .jsp file(helloworld.jsp)      -> java 파일로 변환 ->
-Java file(helloworld_jsp.java) -> 컴파일                ->
+Java file(helloworld_jsp.java) -> 컴파일           ->
 class file(helloworld_jsp.class)
