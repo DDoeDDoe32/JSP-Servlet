@@ -1,3 +1,19 @@
 ﻿Servlet은 JAVA 언어를 사용하여 웹프로그램을 제작하는 것입니다.
 Servlet(Interface) <- GenericServlet(abstract) <- HttpServlet
 -> Servlet 클래스는 HttpServlet 클래스를 상속 받음.
+
+Request 두가지 방식 GET방식, POST방식
+-> GET 방식 : URL 값으로 정보가 전성되어 보안 약함.
+-> POST 방식 : header를 이용해 정보가 전송되어 보안에 강함.
+
+웹브라우저
+doGet()
+HttpServletRequest -> 클라이언트 요청 처리 객체
+HttpServletResponse -> 클라이언트에게 응답 처리 객체
+
+HttpServletResponse 객체의 setContentType() 메소드 호출하여 응답방식 결정합니다.
+HttpServletResponse 객체의 getWriter() 메소드를 이용하여 출력 스트림을 얻습니다.
+
+컨텍스트 패스(Context Path)
+-> WAS(Web Application Server)에서 웹어플리케이션을 구분하기 위한 path입니다.
+-> 이클립스에서 프로젝트를 생성하면 자동으로 server.xml에 추가됩니다.
