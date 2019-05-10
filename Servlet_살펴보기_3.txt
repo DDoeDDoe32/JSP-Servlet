@@ -23,3 +23,4 @@ Get방식 요청 -> <server.xml 수정> (Connector URIEncoding="EUC-KR" ~)
 Post방식 요청 -> <request.setCharacterEncoding() 메소드 이용>
 
 
+
