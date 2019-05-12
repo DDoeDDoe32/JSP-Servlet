@@ -1,0 +1,3 @@
+﻿서블릿 초기화 파라미터 -> ServletConfig
+데이터 공유 -> ServletContext
+웹어플리케이션 감시 -> ServletContextListener
