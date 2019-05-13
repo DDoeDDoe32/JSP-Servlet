@@ -27,8 +27,13 @@ public class InitParam extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String id = getInitParameter("id");
-		String pw = getInitParameter("pw");
+		/*
+		 * String id = getInitParameter("id"); String pw = getInitParameter("pw");
+		 * 
+		 * System.out.println("id = " + id); System.out.println("pw = " + pw);
+		 */
+		String id = getServletContext().getInitParameter("id");
+		String pw = getServletContext().getInitParameter("pw");
 		
 		System.out.println("id = " + id);
 		System.out.println("pw = " + pw);
