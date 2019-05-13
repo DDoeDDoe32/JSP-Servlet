@@ -32,11 +32,13 @@ public class InitParam extends HttpServlet {
 		 * 
 		 * System.out.println("id = " + id); System.out.println("pw = " + pw);
 		 */
-		String id = getServletContext().getInitParameter("id");
-		String pw = getServletContext().getInitParameter("pw");
-		
-		System.out.println("id = " + id);
-		System.out.println("pw = " + pw);
+		/*
+		 * String id = getServletContext().getInitParameter("id"); String pw =
+		 * getServletContext().getInitParameter("pw");
+		 * 
+		 * System.out.println("id = " + id); System.out.println("pw = " + pw);
+		 */
+		System.out.println("doGet");
 	}
 
 	/**

@@ -18,3 +18,10 @@ Servlet 파일에 초기화 파라미터(Initialization Parameter) 기술
 web.xml 파일에 context parameter 기술
 -> Servlet 클래스 제작 -> web.xml 파일에 context paramter 기술 -> ServletContext 메소드 이용해서 데이터 불러오기
 
+웹어플리케이션 감시 -> ServletContextListener
+-> 웹어플리케이션의 생명주기(LifeCycle)를 감시하는 리스너(Listener)가 있습니다. 바로 ServletContextListener입니다.
+리스너의 해당 메소드가 웹어플리케이션의 시작과 종료 시 호출됩니다(contextInitialized(), contextDestroyed())
+
+web.xml 파일에 리스너 클래스 기술
+-> 리스너 클래스 제작 -> web.xml 파일에 리스너 클래스 기술
+-> 리스너 클래스 제작 -> @WebListener 추가
