@@ -1,3 +1,20 @@
 ﻿서블릿 초기화 파라미터 -> ServletConfig
 데이터 공유 -> ServletContext
 웹어플리케이션 감시 -> ServletContextListener
+
+서블릿 초기화 파라미터 : ServletConfig
+-> 특정 Servlet이 생성될 때 초기에 필요한 데이터들이 있습니다. 예를 들어 특정 경로 및 아이디 정보등입니다.
+이러한 데이터들을 초기화 파라미터라고 하며, web.xml에 기술하고 Servlet 파일에서는 ServletConfig 클래스를 이용해서 접근(사용)합니다.
+
+web.xml 파일에 초기화 파라미터(Initialization Parameter) 기술
+-> Servlet 클래스 제작 -> web.xmll 파일에 초기화 파라미터 기술 -> ServletConfig 메소드 이용해서 데이터 불러오기
+
+Servlet 파일에 초기화 파라미터(Initialization Parameter) 기술
+-> Servlet 클래스 제작 -> @WebInitParam에 초기화 파라미터 기술 -> ServletConfig 메소드 이용해서 데이터 불러오기
+
+데이터 공유 -> ServletContext
+여러 Servlet에서 특정 데이터를 공유해야 할 경우 context parameter를 이용해서 web.xml에 데이터를 기술하고, Servlet에서 공유하면서 사용할 수 있습니다.
+
+web.xml 파일에 context parameter 기술
+-> Servlet 클래스 제작 -> web.xml 파일에 context paramter 기술 -> ServletContext 메소드 이용해서 데이터 불러오기
+
